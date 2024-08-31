@@ -78,9 +78,9 @@ const MyPage = () =>{
                                         <button className='btn_supp' onClick={() => handleDelete(index)}>
                                             Supprimer
                                         </button>
-                                        {<button className='btn_det' onClick={() => handleDelete(index)}>
+                                        <button className='btn_det' onClick={() => handleDelete(index)}>
                                             Supprimer
-                                        </button>}
+                                        </button>
                                     </td>
                                 </tr>
                             ))}
