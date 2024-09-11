@@ -1,0 +1,23 @@
+
+.myForm{
+    flex: 1;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    
+
+    .formulaires{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+
+        input{
+            border: none;
+            border-radius: 10px;
+            padding: 5px;
+            
+        }
+    }
+}
